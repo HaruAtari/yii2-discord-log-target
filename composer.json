@@ -1,0 +1,26 @@
+{
+  "name": "haruatari/yii2-discord-db-target",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Viktor Pikaev",
+      "email": "info@haru-atari.com",
+      "homepage": "https://haru-atari.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0",
+    "yiisoft/yii2-httpclient": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "haruatari\\yii2\\discordLogTarget": "src/"
+    }
+  }
+}
