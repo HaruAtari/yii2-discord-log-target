@@ -2,6 +2,9 @@
 
 It sends log messages to your discord channel via webhook.
 
+[![Packagist Version](https://img.shields.io/packagist/v/haruatari/yii2-discord-log-target?style=for-the-badge)](https://packagist.org/packages/haruatari/yii2-discord-log-target)
+[![Total Downloads](https://img.shields.io/packagist/dt/haruatari/yii2-discord-log-target?style=for-the-badge)](https://packagist.org/packages/haruatari/yii2-discord-log-target)
+
 ## Installation
 
 Install via Composer:
