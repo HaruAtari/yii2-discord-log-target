@@ -1,5 +1,5 @@
 {
-  "name": "haruatari/yii2-discord-db-target",
+  "name": "haruatari/yii2-discord-log-target",
   "version": "1.0.0",
   "minimum-stability": "dev",
   "type": "yii2-extension",
