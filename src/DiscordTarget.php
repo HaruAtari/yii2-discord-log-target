@@ -117,6 +117,8 @@ class DiscordTarget extends Target
                     $text = $text->getPrevious();
                 }
                 $text = implode("\n", $exceptionMessages);
+            } elseif (method_exists($text, '__toString')) {
+                $text = (string)$text;
             } else {
                 $text = VarDumper::export($text);
             }
