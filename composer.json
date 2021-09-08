@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "haruatari\\yii2\\discordLogTarget": "src/"
+      "haruatari\\yii2\\discordLogTarget\\": "src/"
     }
   }
 }
