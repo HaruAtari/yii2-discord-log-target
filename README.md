@@ -35,6 +35,16 @@ Ad it into your Yii2 config file:
             'webhookUrl' => "your webhook's url",
         ],
     ]
+    'log' => [
+        'targets' => [
+            [
+                '__class' => \haruatari\yii2\discordLogTarget\DiscordTarget::class,
+                'webhookUrl' => "your webhook's url",
+                'messageTitle' => 'App name', // Application ID will be used if not specified
+                'avatarUrl' => 'https://your-avatar-image-url', // The image will be used as discord webhook avatar if specified               
+            ],
+        ],
+    ],
 ]
 // ...
 ```
