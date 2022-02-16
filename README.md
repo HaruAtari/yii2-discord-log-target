@@ -30,12 +30,6 @@ Ad it into your Yii2 config file:
 // ...
 'components' => [
     'log' => [
-        [
-            '__class' => \haruatari\yii2\discordLogTarget\DiscordTarget::class,
-            'webhookUrl' => "your webhook's url",
-        ],
-    ]
-    'log' => [
         'targets' => [
             [
                 '__class' => \haruatari\yii2\discordLogTarget\DiscordTarget::class,
